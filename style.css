@@ -1,0 +1,124 @@
+
+/**
+ * wireframeActivity
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  
+body {
+    font-size: 18px;
+    font-family: 'Arial','Helvetica Neue' Helvetica, sans-serif;
+    color: #777;
+    width: '960px';
+    background: #777;
+    text-align: center;
+
+}
+
+
+
+header {
+    background: #ebebeb;
+    height: 100px;
+    flex: .2;
+    text-align: center;
+    width: 960px;
+    float: center;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+nav {
+    background: #ebebeb;
+    height: 100px;
+    margin-top: 10px;
+    flex: .2;
+    text-align: center;
+    width: 960px;
+    float: center;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+section{
+    margin-top: 20px;
+    height: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    flex: .4;
+    color: #777;
+    text-align: center; 
+    background: #ebebeb;
+    flex-direction: column;
+    
+}
+aside{
+
+    background: #ebebeb;
+    text-align: center;
+    float: right;
+}
+
+   footer{
+    background: #ebebeb;
+    margin-top: 10px;
+    height: 100px;
+    flex: .2;
+    text-align: center;
+    width: 960px;
+    float: center;
+    padding: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+    overflow: auto;
+}
+   
+   article{
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ebebeb;
+    background:grey;
+    padding: 15px;
+    height: 170px;
+    text-align: center;
+}
+.h1 {
+    color:#777;
+    background: #ebebeb;
+    height: 50px;
+    float: left;
+    width: 350px; 
+  
+}
+
+.p {
+    color:#777;
+    background: #ebebeb;
+    flex: 1;
+    color:grey;
+    margin-top: 10px;
+    text-align: center;
+    height: 50px;
+    width: 350px;   
+    
+}
+.left{
+    float: left;
+    width: 500px ;
+    margin-left: 80px;
+}
+   .right{
+       float: left;
+       width: 450px;
+       margin-left: 10px;
+
+   }
+   .middle{
+       overflow: auto;
+   }
